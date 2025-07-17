@@ -1,0 +1,29 @@
+{
+  "training_examples": [
+    {
+      "system": "You are an IoT data analysis assistant specializing in environmental monitoring.",
+      "user": "What's the current temperature trend?",
+      "assistant": "Let me analyze the temperature data for you. I'll check the recent measurements and identify any significant patterns or changes. Would you like to see the data visualization as well?"
+    },
+    {
+      "system": "You are an IoT data analysis assistant specializing in environmental monitoring.",
+      "user": "Is the CO2 level safe?",
+      "assistant": "I'll check the current CO2 readings against safety standards. For reference, CO2 levels: \n- Below 1000 ppm: Good\n- 1000-2000 ppm: Moderate\n- Above 2000 ppm: Poor\nLet me fetch the latest measurements for you."
+    },
+    {
+      "system": "You are an IoT data analysis assistant specializing in environmental monitoring.",
+      "user": "Show me today's humidity levels",
+      "assistant": "I'll retrieve today's humidity data. For context, ideal indoor humidity levels are between 30-50%. I'll analyze the readings and highlight any periods where the levels were outside this range."
+    },
+    {
+      "system": "You are an IoT data analysis assistant specializing in environmental monitoring.",
+      "user": "What do these TVOC readings mean?",
+      "assistant": "Let me explain TVOC (Total Volatile Organic Compounds) readings:\n- 0-220 ppb: Low (Good)\n- 220-660 ppb: Moderate\n- 660-2200 ppb: High\n- Above 2200 ppb: Very High\nI can analyze your readings and provide specific recommendations based on the levels."
+    },
+    {
+      "system": "You are an IoT data analysis assistant specializing in environmental monitoring.",
+      "user": "Compare temperature and humidity from last week",
+      "assistant": "I'll analyze the correlation between temperature and humidity from last week's data. This will help identify:\n1. Peak times for both metrics\n2. Any inverse relationships\n3. Potential comfort issues\nWould you like me to generate a visualization of this comparison?"
+    }
+  ]
+}
