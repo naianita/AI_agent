@@ -1,0 +1,1137 @@
+{
+  "fair_report": {
+    "timestamp": "2025-08-05 11:54:31",
+    "evaluation_type": "Fair Evaluation",
+    "model_a": "gpt-4.1-mini",
+    "model_b": "gpt-o4-mini-react",
+    "total_comparisons": 20,
+    "gpt41_wins": 0,
+    "gpto4_wins": 0,
+    "ties": 20,
+    "average_confidence": 1.0,
+    "category_details": {
+      "Daily Conversation": {
+        "questions_count": 4,
+        "gpt41_wins": 0,
+        "gpto4_wins": 0,
+        "ties": 4,
+        "average_confidence": 1.0,
+        "gpt41_average_score": 20.0,
+        "gpto4_average_score": 20.0,
+        "score_difference": 0.0
+      },
+      "Intent Recognition": {
+        "questions_count": 4,
+        "gpt41_wins": 0,
+        "gpto4_wins": 0,
+        "ties": 4,
+        "average_confidence": 1.0,
+        "gpt41_average_score": 20.0,
+        "gpto4_average_score": 20.0,
+        "score_difference": 0.0
+      },
+      "Reasoning Task": {
+        "questions_count": 6,
+        "gpt41_wins": 0,
+        "gpto4_wins": 0,
+        "ties": 6,
+        "average_confidence": 1.0,
+        "gpt41_average_score": 20.0,
+        "gpto4_average_score": 20.0,
+        "score_difference": 0.0
+      },
+      "Multi-Task Test": {
+        "questions_count": 2,
+        "gpt41_wins": 0,
+        "gpto4_wins": 0,
+        "ties": 2,
+        "average_confidence": 1.0,
+        "gpt41_average_score": 20.0,
+        "gpto4_average_score": 20.0,
+        "score_difference": 0.0
+      },
+      "Memory Test": {
+        "questions_count": 2,
+        "gpt41_wins": 0,
+        "gpto4_wins": 0,
+        "ties": 2,
+        "average_confidence": 1.0,
+        "gpt41_average_score": 20.0,
+        "gpto4_average_score": 20.0,
+        "score_difference": 0.0
+      },
+      "File Search Test": {
+        "questions_count": 2,
+        "gpt41_wins": 0,
+        "gpto4_wins": 0,
+        "ties": 2,
+        "average_confidence": 1.0,
+        "gpt41_average_score": 20.0,
+        "gpto4_average_score": 20.0,
+        "score_difference": 0.0
+      }
+    }
+  },
+  "detailed_evaluations": [
+    {
+      "question_id": 1,
+      "category": "Daily Conversation",
+      "evaluation": {
+        "question_analysis": "Evaluation failed: Error code: 400 - {'error': {'message': \"Invalid schema for response_format 'FairModelComparison': In context=(), 'required' is required to be supplied and to be an array including every key in properties. Extra required key 'model_expectations' supplied.\", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}",
+        "model_expectations": {
+          "gpt_4_1_mini": "Expected concise direct answers",
+          "gpt_o4_mini_react": "Expected to show reasoning process"
+        },
+        "evaluation_steps": [
+          {
+            "aspect": "accuracy",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "completeness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "appropriateness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "usefulness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          }
+        ],
+        "final_decision": "tie",
+        "confidence_level": 1,
+        "fair_reasoning": "Evaluation failed: Error code: 400 - {'error': {'message': \"Invalid schema for response_format 'FairModelComparison': In context=(), 'required' is required to be supplied and to be an array including every key in properties. Extra required key 'model_expectations' supplied.\", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}",
+        "score_summary": {
+          "gpt_4_1_total": 20,
+          "gpt_o4_total": 20,
+          "step_count": 4
+        }
+      }
+    },
+    {
+      "question_id": 2,
+      "category": "Daily Conversation",
+      "evaluation": {
+        "question_analysis": "Evaluation failed: Error code: 400 - {'error': {'message': \"Invalid schema for response_format 'FairModelComparison': In context=(), 'required' is required to be supplied and to be an array including every key in properties. Extra required key 'model_expectations' supplied.\", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}",
+        "model_expectations": {
+          "gpt_4_1_mini": "Expected concise direct answers",
+          "gpt_o4_mini_react": "Expected to show reasoning process"
+        },
+        "evaluation_steps": [
+          {
+            "aspect": "accuracy",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "completeness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "appropriateness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "usefulness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          }
+        ],
+        "final_decision": "tie",
+        "confidence_level": 1,
+        "fair_reasoning": "Evaluation failed: Error code: 400 - {'error': {'message': \"Invalid schema for response_format 'FairModelComparison': In context=(), 'required' is required to be supplied and to be an array including every key in properties. Extra required key 'model_expectations' supplied.\", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}",
+        "score_summary": {
+          "gpt_4_1_total": 20,
+          "gpt_o4_total": 20,
+          "step_count": 4
+        }
+      }
+    },
+    {
+      "question_id": 3,
+      "category": "Daily Conversation",
+      "evaluation": {
+        "question_analysis": "Evaluation failed: Error code: 400 - {'error': {'message': \"Invalid schema for response_format 'FairModelComparison': In context=(), 'required' is required to be supplied and to be an array including every key in properties. Extra required key 'model_expectations' supplied.\", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}",
+        "model_expectations": {
+          "gpt_4_1_mini": "Expected concise direct answers",
+          "gpt_o4_mini_react": "Expected to show reasoning process"
+        },
+        "evaluation_steps": [
+          {
+            "aspect": "accuracy",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "completeness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "appropriateness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "usefulness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          }
+        ],
+        "final_decision": "tie",
+        "confidence_level": 1,
+        "fair_reasoning": "Evaluation failed: Error code: 400 - {'error': {'message': \"Invalid schema for response_format 'FairModelComparison': In context=(), 'required' is required to be supplied and to be an array including every key in properties. Extra required key 'model_expectations' supplied.\", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}",
+        "score_summary": {
+          "gpt_4_1_total": 20,
+          "gpt_o4_total": 20,
+          "step_count": 4
+        }
+      }
+    },
+    {
+      "question_id": 4,
+      "category": "Daily Conversation",
+      "evaluation": {
+        "question_analysis": "Evaluation failed: Error code: 400 - {'error': {'message': \"Invalid schema for response_format 'FairModelComparison': In context=(), 'required' is required to be supplied and to be an array including every key in properties. Extra required key 'model_expectations' supplied.\", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}",
+        "model_expectations": {
+          "gpt_4_1_mini": "Expected concise direct answers",
+          "gpt_o4_mini_react": "Expected to show reasoning process"
+        },
+        "evaluation_steps": [
+          {
+            "aspect": "accuracy",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "completeness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "appropriateness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "usefulness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          }
+        ],
+        "final_decision": "tie",
+        "confidence_level": 1,
+        "fair_reasoning": "Evaluation failed: Error code: 400 - {'error': {'message': \"Invalid schema for response_format 'FairModelComparison': In context=(), 'required' is required to be supplied and to be an array including every key in properties. Extra required key 'model_expectations' supplied.\", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}",
+        "score_summary": {
+          "gpt_4_1_total": 20,
+          "gpt_o4_total": 20,
+          "step_count": 4
+        }
+      }
+    },
+    {
+      "question_id": 5,
+      "category": "Intent Recognition",
+      "evaluation": {
+        "question_analysis": "Evaluation failed: Error code: 400 - {'error': {'message': \"Invalid schema for response_format 'FairModelComparison': In context=(), 'required' is required to be supplied and to be an array including every key in properties. Extra required key 'model_expectations' supplied.\", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}",
+        "model_expectations": {
+          "gpt_4_1_mini": "Expected concise direct answers",
+          "gpt_o4_mini_react": "Expected to show reasoning process"
+        },
+        "evaluation_steps": [
+          {
+            "aspect": "accuracy",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "completeness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "appropriateness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "usefulness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          }
+        ],
+        "final_decision": "tie",
+        "confidence_level": 1,
+        "fair_reasoning": "Evaluation failed: Error code: 400 - {'error': {'message': \"Invalid schema for response_format 'FairModelComparison': In context=(), 'required' is required to be supplied and to be an array including every key in properties. Extra required key 'model_expectations' supplied.\", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}",
+        "score_summary": {
+          "gpt_4_1_total": 20,
+          "gpt_o4_total": 20,
+          "step_count": 4
+        }
+      }
+    },
+    {
+      "question_id": 6,
+      "category": "Intent Recognition",
+      "evaluation": {
+        "question_analysis": "Evaluation failed: Error code: 400 - {'error': {'message': \"Invalid schema for response_format 'FairModelComparison': In context=(), 'required' is required to be supplied and to be an array including every key in properties. Extra required key 'model_expectations' supplied.\", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}",
+        "model_expectations": {
+          "gpt_4_1_mini": "Expected concise direct answers",
+          "gpt_o4_mini_react": "Expected to show reasoning process"
+        },
+        "evaluation_steps": [
+          {
+            "aspect": "accuracy",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "completeness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "appropriateness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "usefulness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          }
+        ],
+        "final_decision": "tie",
+        "confidence_level": 1,
+        "fair_reasoning": "Evaluation failed: Error code: 400 - {'error': {'message': \"Invalid schema for response_format 'FairModelComparison': In context=(), 'required' is required to be supplied and to be an array including every key in properties. Extra required key 'model_expectations' supplied.\", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}",
+        "score_summary": {
+          "gpt_4_1_total": 20,
+          "gpt_o4_total": 20,
+          "step_count": 4
+        }
+      }
+    },
+    {
+      "question_id": 7,
+      "category": "Intent Recognition",
+      "evaluation": {
+        "question_analysis": "Evaluation failed: Error code: 400 - {'error': {'message': \"Invalid schema for response_format 'FairModelComparison': In context=(), 'required' is required to be supplied and to be an array including every key in properties. Extra required key 'model_expectations' supplied.\", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}",
+        "model_expectations": {
+          "gpt_4_1_mini": "Expected concise direct answers",
+          "gpt_o4_mini_react": "Expected to show reasoning process"
+        },
+        "evaluation_steps": [
+          {
+            "aspect": "accuracy",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "completeness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "appropriateness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "usefulness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          }
+        ],
+        "final_decision": "tie",
+        "confidence_level": 1,
+        "fair_reasoning": "Evaluation failed: Error code: 400 - {'error': {'message': \"Invalid schema for response_format 'FairModelComparison': In context=(), 'required' is required to be supplied and to be an array including every key in properties. Extra required key 'model_expectations' supplied.\", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}",
+        "score_summary": {
+          "gpt_4_1_total": 20,
+          "gpt_o4_total": 20,
+          "step_count": 4
+        }
+      }
+    },
+    {
+      "question_id": 8,
+      "category": "Intent Recognition",
+      "evaluation": {
+        "question_analysis": "Evaluation failed: Error code: 400 - {'error': {'message': \"Invalid schema for response_format 'FairModelComparison': In context=(), 'required' is required to be supplied and to be an array including every key in properties. Extra required key 'model_expectations' supplied.\", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}",
+        "model_expectations": {
+          "gpt_4_1_mini": "Expected concise direct answers",
+          "gpt_o4_mini_react": "Expected to show reasoning process"
+        },
+        "evaluation_steps": [
+          {
+            "aspect": "accuracy",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "completeness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "appropriateness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "usefulness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          }
+        ],
+        "final_decision": "tie",
+        "confidence_level": 1,
+        "fair_reasoning": "Evaluation failed: Error code: 400 - {'error': {'message': \"Invalid schema for response_format 'FairModelComparison': In context=(), 'required' is required to be supplied and to be an array including every key in properties. Extra required key 'model_expectations' supplied.\", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}",
+        "score_summary": {
+          "gpt_4_1_total": 20,
+          "gpt_o4_total": 20,
+          "step_count": 4
+        }
+      }
+    },
+    {
+      "question_id": 9,
+      "category": "Reasoning Task",
+      "evaluation": {
+        "question_analysis": "Evaluation failed: Error code: 400 - {'error': {'message': \"Invalid schema for response_format 'FairModelComparison': In context=(), 'required' is required to be supplied and to be an array including every key in properties. Extra required key 'model_expectations' supplied.\", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}",
+        "model_expectations": {
+          "gpt_4_1_mini": "Expected concise direct answers",
+          "gpt_o4_mini_react": "Expected to show reasoning process"
+        },
+        "evaluation_steps": [
+          {
+            "aspect": "accuracy",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "completeness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "appropriateness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "usefulness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          }
+        ],
+        "final_decision": "tie",
+        "confidence_level": 1,
+        "fair_reasoning": "Evaluation failed: Error code: 400 - {'error': {'message': \"Invalid schema for response_format 'FairModelComparison': In context=(), 'required' is required to be supplied and to be an array including every key in properties. Extra required key 'model_expectations' supplied.\", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}",
+        "score_summary": {
+          "gpt_4_1_total": 20,
+          "gpt_o4_total": 20,
+          "step_count": 4
+        }
+      }
+    },
+    {
+      "question_id": 10,
+      "category": "Reasoning Task",
+      "evaluation": {
+        "question_analysis": "Evaluation failed: Error code: 400 - {'error': {'message': \"Invalid schema for response_format 'FairModelComparison': In context=(), 'required' is required to be supplied and to be an array including every key in properties. Extra required key 'model_expectations' supplied.\", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}",
+        "model_expectations": {
+          "gpt_4_1_mini": "Expected concise direct answers",
+          "gpt_o4_mini_react": "Expected to show reasoning process"
+        },
+        "evaluation_steps": [
+          {
+            "aspect": "accuracy",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "completeness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "appropriateness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "usefulness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          }
+        ],
+        "final_decision": "tie",
+        "confidence_level": 1,
+        "fair_reasoning": "Evaluation failed: Error code: 400 - {'error': {'message': \"Invalid schema for response_format 'FairModelComparison': In context=(), 'required' is required to be supplied and to be an array including every key in properties. Extra required key 'model_expectations' supplied.\", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}",
+        "score_summary": {
+          "gpt_4_1_total": 20,
+          "gpt_o4_total": 20,
+          "step_count": 4
+        }
+      }
+    },
+    {
+      "question_id": 11,
+      "category": "Reasoning Task",
+      "evaluation": {
+        "question_analysis": "Evaluation failed: Error code: 400 - {'error': {'message': \"Invalid schema for response_format 'FairModelComparison': In context=(), 'required' is required to be supplied and to be an array including every key in properties. Extra required key 'model_expectations' supplied.\", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}",
+        "model_expectations": {
+          "gpt_4_1_mini": "Expected concise direct answers",
+          "gpt_o4_mini_react": "Expected to show reasoning process"
+        },
+        "evaluation_steps": [
+          {
+            "aspect": "accuracy",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "completeness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "appropriateness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "usefulness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          }
+        ],
+        "final_decision": "tie",
+        "confidence_level": 1,
+        "fair_reasoning": "Evaluation failed: Error code: 400 - {'error': {'message': \"Invalid schema for response_format 'FairModelComparison': In context=(), 'required' is required to be supplied and to be an array including every key in properties. Extra required key 'model_expectations' supplied.\", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}",
+        "score_summary": {
+          "gpt_4_1_total": 20,
+          "gpt_o4_total": 20,
+          "step_count": 4
+        }
+      }
+    },
+    {
+      "question_id": 12,
+      "category": "Reasoning Task",
+      "evaluation": {
+        "question_analysis": "Evaluation failed: Error code: 400 - {'error': {'message': \"Invalid schema for response_format 'FairModelComparison': In context=(), 'required' is required to be supplied and to be an array including every key in properties. Extra required key 'model_expectations' supplied.\", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}",
+        "model_expectations": {
+          "gpt_4_1_mini": "Expected concise direct answers",
+          "gpt_o4_mini_react": "Expected to show reasoning process"
+        },
+        "evaluation_steps": [
+          {
+            "aspect": "accuracy",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "completeness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "appropriateness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "usefulness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          }
+        ],
+        "final_decision": "tie",
+        "confidence_level": 1,
+        "fair_reasoning": "Evaluation failed: Error code: 400 - {'error': {'message': \"Invalid schema for response_format 'FairModelComparison': In context=(), 'required' is required to be supplied and to be an array including every key in properties. Extra required key 'model_expectations' supplied.\", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}",
+        "score_summary": {
+          "gpt_4_1_total": 20,
+          "gpt_o4_total": 20,
+          "step_count": 4
+        }
+      }
+    },
+    {
+      "question_id": 13,
+      "category": "Reasoning Task",
+      "evaluation": {
+        "question_analysis": "Evaluation failed: Error code: 400 - {'error': {'message': \"Invalid schema for response_format 'FairModelComparison': In context=(), 'required' is required to be supplied and to be an array including every key in properties. Extra required key 'model_expectations' supplied.\", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}",
+        "model_expectations": {
+          "gpt_4_1_mini": "Expected concise direct answers",
+          "gpt_o4_mini_react": "Expected to show reasoning process"
+        },
+        "evaluation_steps": [
+          {
+            "aspect": "accuracy",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "completeness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "appropriateness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "usefulness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          }
+        ],
+        "final_decision": "tie",
+        "confidence_level": 1,
+        "fair_reasoning": "Evaluation failed: Error code: 400 - {'error': {'message': \"Invalid schema for response_format 'FairModelComparison': In context=(), 'required' is required to be supplied and to be an array including every key in properties. Extra required key 'model_expectations' supplied.\", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}",
+        "score_summary": {
+          "gpt_4_1_total": 20,
+          "gpt_o4_total": 20,
+          "step_count": 4
+        }
+      }
+    },
+    {
+      "question_id": 14,
+      "category": "Reasoning Task",
+      "evaluation": {
+        "question_analysis": "Evaluation failed: Error code: 400 - {'error': {'message': \"Invalid schema for response_format 'FairModelComparison': In context=(), 'required' is required to be supplied and to be an array including every key in properties. Extra required key 'model_expectations' supplied.\", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}",
+        "model_expectations": {
+          "gpt_4_1_mini": "Expected concise direct answers",
+          "gpt_o4_mini_react": "Expected to show reasoning process"
+        },
+        "evaluation_steps": [
+          {
+            "aspect": "accuracy",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "completeness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "appropriateness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "usefulness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          }
+        ],
+        "final_decision": "tie",
+        "confidence_level": 1,
+        "fair_reasoning": "Evaluation failed: Error code: 400 - {'error': {'message': \"Invalid schema for response_format 'FairModelComparison': In context=(), 'required' is required to be supplied and to be an array including every key in properties. Extra required key 'model_expectations' supplied.\", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}",
+        "score_summary": {
+          "gpt_4_1_total": 20,
+          "gpt_o4_total": 20,
+          "step_count": 4
+        }
+      }
+    },
+    {
+      "question_id": 15,
+      "category": "Multi-Task Test",
+      "evaluation": {
+        "question_analysis": "Evaluation failed: Error code: 400 - {'error': {'message': \"Invalid schema for response_format 'FairModelComparison': In context=(), 'required' is required to be supplied and to be an array including every key in properties. Extra required key 'model_expectations' supplied.\", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}",
+        "model_expectations": {
+          "gpt_4_1_mini": "Expected concise direct answers",
+          "gpt_o4_mini_react": "Expected to show reasoning process"
+        },
+        "evaluation_steps": [
+          {
+            "aspect": "accuracy",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "completeness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "appropriateness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "usefulness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          }
+        ],
+        "final_decision": "tie",
+        "confidence_level": 1,
+        "fair_reasoning": "Evaluation failed: Error code: 400 - {'error': {'message': \"Invalid schema for response_format 'FairModelComparison': In context=(), 'required' is required to be supplied and to be an array including every key in properties. Extra required key 'model_expectations' supplied.\", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}",
+        "score_summary": {
+          "gpt_4_1_total": 20,
+          "gpt_o4_total": 20,
+          "step_count": 4
+        }
+      }
+    },
+    {
+      "question_id": 16,
+      "category": "Multi-Task Test",
+      "evaluation": {
+        "question_analysis": "Evaluation failed: Error code: 400 - {'error': {'message': \"Invalid schema for response_format 'FairModelComparison': In context=(), 'required' is required to be supplied and to be an array including every key in properties. Extra required key 'model_expectations' supplied.\", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}",
+        "model_expectations": {
+          "gpt_4_1_mini": "Expected concise direct answers",
+          "gpt_o4_mini_react": "Expected to show reasoning process"
+        },
+        "evaluation_steps": [
+          {
+            "aspect": "accuracy",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "completeness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "appropriateness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "usefulness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          }
+        ],
+        "final_decision": "tie",
+        "confidence_level": 1,
+        "fair_reasoning": "Evaluation failed: Error code: 400 - {'error': {'message': \"Invalid schema for response_format 'FairModelComparison': In context=(), 'required' is required to be supplied and to be an array including every key in properties. Extra required key 'model_expectations' supplied.\", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}",
+        "score_summary": {
+          "gpt_4_1_total": 20,
+          "gpt_o4_total": 20,
+          "step_count": 4
+        }
+      }
+    },
+    {
+      "question_id": 17,
+      "category": "Memory Test",
+      "evaluation": {
+        "question_analysis": "Evaluation failed: Error code: 400 - {'error': {'message': \"Invalid schema for response_format 'FairModelComparison': In context=(), 'required' is required to be supplied and to be an array including every key in properties. Extra required key 'model_expectations' supplied.\", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}",
+        "model_expectations": {
+          "gpt_4_1_mini": "Expected concise direct answers",
+          "gpt_o4_mini_react": "Expected to show reasoning process"
+        },
+        "evaluation_steps": [
+          {
+            "aspect": "accuracy",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "completeness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "appropriateness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "usefulness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          }
+        ],
+        "final_decision": "tie",
+        "confidence_level": 1,
+        "fair_reasoning": "Evaluation failed: Error code: 400 - {'error': {'message': \"Invalid schema for response_format 'FairModelComparison': In context=(), 'required' is required to be supplied and to be an array including every key in properties. Extra required key 'model_expectations' supplied.\", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}",
+        "score_summary": {
+          "gpt_4_1_total": 20,
+          "gpt_o4_total": 20,
+          "step_count": 4
+        }
+      }
+    },
+    {
+      "question_id": 18,
+      "category": "Memory Test",
+      "evaluation": {
+        "question_analysis": "Evaluation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-1yrnB5OEd9nCEgwz02948jEq on tokens per min (TPM): Limit 30000, Used 28994, Requested 1127. Please try again in 242ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}",
+        "model_expectations": {
+          "gpt_4_1_mini": "Expected concise direct answers",
+          "gpt_o4_mini_react": "Expected to show reasoning process"
+        },
+        "evaluation_steps": [
+          {
+            "aspect": "accuracy",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "completeness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "appropriateness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "usefulness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          }
+        ],
+        "final_decision": "tie",
+        "confidence_level": 1,
+        "fair_reasoning": "Evaluation failed: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-1yrnB5OEd9nCEgwz02948jEq on tokens per min (TPM): Limit 30000, Used 28994, Requested 1127. Please try again in 242ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}",
+        "score_summary": {
+          "gpt_4_1_total": 20,
+          "gpt_o4_total": 20,
+          "step_count": 4
+        }
+      }
+    },
+    {
+      "question_id": 19,
+      "category": "File Search Test",
+      "evaluation": {
+        "question_analysis": "Evaluation failed: Error code: 400 - {'error': {'message': \"Invalid schema for response_format 'FairModelComparison': In context=(), 'required' is required to be supplied and to be an array including every key in properties. Extra required key 'model_expectations' supplied.\", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}",
+        "model_expectations": {
+          "gpt_4_1_mini": "Expected concise direct answers",
+          "gpt_o4_mini_react": "Expected to show reasoning process"
+        },
+        "evaluation_steps": [
+          {
+            "aspect": "accuracy",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "completeness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "appropriateness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "usefulness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          }
+        ],
+        "final_decision": "tie",
+        "confidence_level": 1,
+        "fair_reasoning": "Evaluation failed: Error code: 400 - {'error': {'message': \"Invalid schema for response_format 'FairModelComparison': In context=(), 'required' is required to be supplied and to be an array including every key in properties. Extra required key 'model_expectations' supplied.\", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}",
+        "score_summary": {
+          "gpt_4_1_total": 20,
+          "gpt_o4_total": 20,
+          "step_count": 4
+        }
+      }
+    },
+    {
+      "question_id": 20,
+      "category": "File Search Test",
+      "evaluation": {
+        "question_analysis": "Evaluation failed: Error code: 400 - {'error': {'message': \"Invalid schema for response_format 'FairModelComparison': In context=(), 'required' is required to be supplied and to be an array including every key in properties. Extra required key 'model_expectations' supplied.\", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}",
+        "model_expectations": {
+          "gpt_4_1_mini": "Expected concise direct answers",
+          "gpt_o4_mini_react": "Expected to show reasoning process"
+        },
+        "evaluation_steps": [
+          {
+            "aspect": "accuracy",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "completeness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "appropriateness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          },
+          {
+            "aspect": "usefulness",
+            "gpt_4_1_analysis": "Unable to evaluate",
+            "gpt_o4_analysis": "Unable to evaluate",
+            "gpt_4_1_score": 5,
+            "gpt_o4_score": 5,
+            "reasoning": "Evaluation failed"
+          }
+        ],
+        "final_decision": "tie",
+        "confidence_level": 1,
+        "fair_reasoning": "Evaluation failed: Error code: 400 - {'error': {'message': \"Invalid schema for response_format 'FairModelComparison': In context=(), 'required' is required to be supplied and to be an array including every key in properties. Extra required key 'model_expectations' supplied.\", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}",
+        "score_summary": {
+          "gpt_4_1_total": 20,
+          "gpt_o4_total": 20,
+          "step_count": 4
+        }
+      }
+    }
+  ]
+}

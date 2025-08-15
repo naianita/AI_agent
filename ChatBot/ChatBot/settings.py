@@ -28,12 +28,24 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 
 # OpenAI API Key - Replace with your actual key
-OPENAI_API_KEY = os.getenv('API_KEY') # TODO: Replace with actual key
+OPENAI_API_KEY = os.getenv('API_KEY', 'sk-your-actual-openai-api-key-here') # TODO: Replace with actual key
 
-# Model Settings
-COMPLEX_LLM_MODEL = os.getenv('COMPLEX_LLM_MODEL', 'gpt-4.1-nano-2025-04-14')  # Primary model for complex tasks
-LIGHTWEIGHT_LLM_MODEL = os.getenv('LIGHTWEIGHT_LLM_MODEL', 'gpt-4.1-nano-2025-04-14')  # Model for lightweight tasks
-FALLBACK_MODEL = os.getenv('FALLBACK_MODEL', 'gpt-4.1-nano-2025-04-14')  # Will be set to fine-tuned model ID after training
+# AI Model Configuration - O4-MINI REASONING MODEL
+COMPLEX_LLM_MODEL = os.getenv('COMPLEX_LLM_MODEL', 'o4-mini')  # PRIMARY: Reasoning model for complex tasks
+
+# EFFICIENCY NOTE: These models are rarely used, keeping current for cost efficiency
+LIGHTWEIGHT_LLM_MODEL = os.getenv('LIGHTWEIGHT_LLM_MODEL', 'o4-mini')  # UNUSED: No calls in codebase
+FALLBACK_MODEL = os.getenv('FALLBACK_MODEL', 'gpt-4o-mini-2024-07-18')  # FALLBACK: Only for errors
+
+# PRICING: o4-mini
+# Input: $1.10 / 1M tokens
+# Cached input: $0.275 / 1M tokens  
+# Output: $4.40 / 1M tokens
+# Perfect for multi-step reasoning, memory tasks, complex analysis
+
+# ALTERNATIVE MODEL NAMES (if o4-mini doesn't work, try these):
+# COMPLEX_LLM_MODEL = 'o1-mini'                 # Alternative reasoning model name
+# COMPLEX_LLM_MODEL = 'gpt-4o-mini-2024-07-18' # Fallback to standard model
 
 # Fine-tuning Settings
 FINE_TUNING_EPOCHS = 3

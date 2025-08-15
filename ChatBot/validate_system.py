@@ -43,18 +43,19 @@ def validate_environment():
     print_check("OpenAI API Key", api_key_set, 
                 f"Set: {'Yes' if api_key_set else 'No - Please add to .env'}")
     
-    # Check model settings
-    complex_model = getattr(settings, 'COMPLEX_LLM_MODEL', '')
-    is_nano_model = 'gpt-4.1-nano-2025-04-14' in complex_model
-    print_check("GPT-4.1-nano Model Config", is_nano_model,
-                f"Model: {complex_model}")
+    # Model Configuration Validation
+    complex_model = getattr(settings, 'COMPLEX_LLM_MODEL', 'unknown')
+    is_gpt4o_mini = 'gpt-4o-mini-2024-07-18' in complex_model
+    print_check("GPT-4o-mini Model Config", is_gpt4o_mini,
+               f"✅ Using {complex_model}" if is_gpt4o_mini else f"⚠️  Using {complex_model} (recommend gpt-4o-mini-2024-07-18)",
+               f"❌ Model not configured: {complex_model}")
     
     # Check Django settings
     debug_mode = getattr(settings, 'DEBUG', False)
     print_check("Django Debug Mode", debug_mode,
                 f"Debug: {debug_mode}")
     
-    return api_key_set and is_nano_model
+    return api_key_set and is_gpt4o_mini
 
 def validate_data_files():
     """Validate IoT data files"""
@@ -168,25 +169,34 @@ def estimate_costs():
     """Estimate training and operational costs"""
     print_header("Cost Analysis")
     
-    # Training data costs
-    training_examples = 5000  # nano_finetune_data.json
-    avg_tokens = 300
-    total_tokens = training_examples * avg_tokens
+    # Fine-tuning cost (gpt-4o-mini rates)
+    input_tokens = 50_000  # Training data tokens
+    epochs = 3
+    cost_per_input_token = 0.15 / 1_000_000  # $0.15 per 1M tokens
     
-    # Fine-tuning cost (gpt-4.1-nano cached rate)
-    fine_tune_cost_per_million = 25.0  # $25 per 1M tokens
-    fine_tune_cost = (total_tokens / 1_000_000) * fine_tune_cost_per_million
+    training_cost = input_tokens * epochs * cost_per_input_token
+    
+    print(f"   📊 Training tokens: {input_tokens:,}")
+    print(f"   🔄 Epochs: {epochs}")
+    print(f"   💰 Estimated cost: ${training_cost:.4f} (very affordable with gpt-4o-mini!)")
+    
+    cost_effective = training_cost < 1.0  # Under $1 is very reasonable
+    print_check("Cost Effectiveness", cost_effective,
+               f"✅ Very affordable: ${training_cost:.4f}",
+               f"⚠️  Higher cost: ${training_cost:.4f}")
     
     # Inference cost estimates (per month)
     monthly_requests = 1000  # Estimated
-    inference_cost_per_million = 0.40  # $0.40 per 1M output tokens
-    monthly_inference_cost = (monthly_requests * avg_tokens / 1_000_000) * inference_cost_per_million
+    # gpt-4o-mini inference costs (much cheaper!)
+    input_cost_per_million = 0.15   # $0.15 per 1M input tokens  
+    output_cost_per_million = 0.6    # $0.6 per 1M output tokens
+    avg_cost_per_million = (input_cost_per_million + output_cost_per_million) / 2  # Average
+    monthly_inference_cost = (monthly_requests * avg_tokens / 1_000_000) * avg_cost_per_million
     
-    print_check("Fine-tuning Cost", True, f"${fine_tune_cost:.2f} one-time")
-    print_check("Monthly Inference Cost", True, f"${monthly_inference_cost:.2f} estimated")
-    print_check("Total Setup Cost", True, f"${fine_tune_cost:.2f}")
+    print_check("Monthly Inference Cost", True, f"${monthly_inference_cost:.2f} estimated (very low cost!)")
+    print_check("Total Setup Cost", True, f"${training_cost:.2f}")
     
-    return fine_tune_cost < 10.0  # Check if within reasonable budget
+    return training_cost < 10.0  # Check if within reasonable budget
 
 def generate_next_steps(validations):
     """Generate actionable next steps based on validation results"""

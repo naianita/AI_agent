@@ -1,0 +1,853 @@
+{
+  "timestamp": "2025-08-05 17:45:10",
+  "methodology": "AI Evaluation with Manual Override (Most Accurate)",
+  "evaluation_breakdown": {
+    "ai_evaluated": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "manual_override": [
+      9,
+      17,
+      18,
+      19,
+      20
+    ],
+    "total_questions": 20
+  },
+  "overall_statistics": {
+    "gpt_4_1_mini_avg": 7.56,
+    "o4_mini_avg": 9.05,
+    "score_difference": 1.49,
+    "preferences": {
+      "gpt-4.1-mini": 2,
+      "o4-mini": 18,
+      "tie": 0
+    },
+    "preference_percentages": {
+      "gpt_4_1_mini": "10.0%",
+      "o4_mini": "90.0%",
+      "tie": "0.0%"
+    }
+  },
+  "category_breakdown": {
+    "Daily Conversation": {
+      "questions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "question_count": 4,
+      "gpt_avg_score": 8.55,
+      "reasoning_avg_score": 8.95,
+      "score_difference": 0.4,
+      "preferences": {
+        "gpt-4.1-mini": 1,
+        "o4-mini": 3,
+        "tie": 0
+      },
+      "reasoning_advantage": true,
+      "evaluation_methods": [
+        "ai_evaluation"
+      ]
+    },
+    "Intent Recognition": {
+      "questions": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "question_count": 4,
+      "gpt_avg_score": 5.65,
+      "reasoning_avg_score": 9.6,
+      "score_difference": 3.95,
+      "preferences": {
+        "gpt-4.1-mini": 0,
+        "o4-mini": 4,
+        "tie": 0
+      },
+      "reasoning_advantage": true,
+      "evaluation_methods": [
+        "ai_evaluation"
+      ]
+    },
+    "Reasoning Task": {
+      "questions": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "question_count": 6,
+      "gpt_avg_score": 6.83,
+      "reasoning_avg_score": 9.37,
+      "score_difference": 2.53,
+      "preferences": {
+        "gpt-4.1-mini": 0,
+        "o4-mini": 6,
+        "tie": 0
+      },
+      "reasoning_advantage": true,
+      "evaluation_methods": [
+        "ai_evaluation",
+        "manual_override"
+      ]
+    },
+    "Multi-Task Test": {
+      "questions": [
+        15,
+        16
+      ],
+      "question_count": 2,
+      "gpt_avg_score": 7.9,
+      "reasoning_avg_score": 9.3,
+      "score_difference": 1.4,
+      "preferences": {
+        "gpt-4.1-mini": 0,
+        "o4-mini": 2,
+        "tie": 0
+      },
+      "reasoning_advantage": true,
+      "evaluation_methods": [
+        "ai_evaluation"
+      ]
+    },
+    "Memory Test": {
+      "questions": [
+        17,
+        18
+      ],
+      "question_count": 2,
+      "gpt_avg_score": 9.1,
+      "reasoning_avg_score": 10,
+      "score_difference": 0.9,
+      "preferences": {
+        "gpt-4.1-mini": 0,
+        "o4-mini": 2,
+        "tie": 0
+      },
+      "reasoning_advantage": true,
+      "evaluation_methods": [
+        "manual_override"
+      ]
+    },
+    "File Search Test": {
+      "questions": [
+        19,
+        20
+      ],
+      "question_count": 2,
+      "gpt_avg_score": 9.7,
+      "reasoning_avg_score": 6,
+      "score_difference": -3.7,
+      "preferences": {
+        "gpt-4.1-mini": 1,
+        "o4-mini": 1,
+        "tie": 0
+      },
+      "reasoning_advantage": false,
+      "evaluation_methods": [
+        "manual_override"
+      ]
+    }
+  },
+  "question_by_question_results": {
+    "1": {
+      "question_id": 1,
+      "category": "Daily Conversation",
+      "question": "What's the capital of France?",
+      "winner": "gpt-4.1-mini",
+      "confidence": 9,
+      "gpt_total_score": 44,
+      "reasoning_total_score": 42,
+      "gpt_avg_score": 8.8,
+      "reasoning_avg_score": 8.4,
+      "dimension_scores": {
+        "Accuracy": {
+          "gpt_4_1_mini": 10,
+          "o4_mini": 10
+        },
+        "Completeness": {
+          "gpt_4_1_mini": 9,
+          "o4_mini": 8
+        },
+        "Reasoning Quality": {
+          "gpt_4_1_mini": 7,
+          "o4_mini": 9
+        },
+        "Task Appropriateness": {
+          "gpt_4_1_mini": 9,
+          "o4_mini": 7
+        },
+        "Practical Value": {
+          "gpt_4_1_mini": 9,
+          "o4_mini": 8
+        }
+      },
+      "evaluation_method": "ai_evaluation"
+    },
+    "2": {
+      "question_id": 2,
+      "category": "Daily Conversation",
+      "question": "What's 25% of 200?",
+      "winner": "o4-mini",
+      "confidence": 9,
+      "gpt_total_score": 45,
+      "reasoning_total_score": 47,
+      "gpt_avg_score": 9.0,
+      "reasoning_avg_score": 9.4,
+      "dimension_scores": {
+        "Accuracy": {
+          "gpt_4_1_mini": 10,
+          "o4_mini": 10
+        },
+        "Completeness": {
+          "gpt_4_1_mini": 9,
+          "o4_mini": 10
+        },
+        "Reasoning Quality": {
+          "gpt_4_1_mini": 8,
+          "o4_mini": 10
+        },
+        "Task Appropriateness": {
+          "gpt_4_1_mini": 9,
+          "o4_mini": 8
+        },
+        "Practical Value": {
+          "gpt_4_1_mini": 9,
+          "o4_mini": 9
+        }
+      },
+      "evaluation_method": "ai_evaluation"
+    },
+    "3": {
+      "question_id": 3,
+      "category": "Daily Conversation",
+      "question": "Tell me three fruits rich in vitamin C.",
+      "winner": "o4-mini",
+      "confidence": 9,
+      "gpt_total_score": 40,
+      "reasoning_total_score": 44,
+      "gpt_avg_score": 8.0,
+      "reasoning_avg_score": 8.8,
+      "dimension_scores": {
+        "Accuracy": {
+          "gpt_4_1_mini": 9,
+          "o4_mini": 10
+        },
+        "Completeness": {
+          "gpt_4_1_mini": 8,
+          "o4_mini": 9
+        },
+        "Reasoning Quality": {
+          "gpt_4_1_mini": 6,
+          "o4_mini": 9
+        },
+        "Task Appropriateness": {
+          "gpt_4_1_mini": 9,
+          "o4_mini": 7
+        },
+        "Practical Value": {
+          "gpt_4_1_mini": 8,
+          "o4_mini": 9
+        }
+      },
+      "evaluation_method": "ai_evaluation"
+    },
+    "4": {
+      "question_id": 4,
+      "category": "Daily Conversation",
+      "question": "Convert 100 Fahrenheit to Celsius.",
+      "winner": "o4-mini",
+      "confidence": 9,
+      "gpt_total_score": 42,
+      "reasoning_total_score": 46,
+      "gpt_avg_score": 8.4,
+      "reasoning_avg_score": 9.2,
+      "dimension_scores": {
+        "Accuracy": {
+          "gpt_4_1_mini": 10,
+          "o4_mini": 10
+        },
+        "Completeness": {
+          "gpt_4_1_mini": 8,
+          "o4_mini": 9
+        },
+        "Reasoning Quality": {
+          "gpt_4_1_mini": 7,
+          "o4_mini": 10
+        },
+        "Task Appropriateness": {
+          "gpt_4_1_mini": 9,
+          "o4_mini": 8
+        },
+        "Practical Value": {
+          "gpt_4_1_mini": 8,
+          "o4_mini": 9
+        }
+      },
+      "evaluation_method": "ai_evaluation"
+    },
+    "5": {
+      "question_id": 5,
+      "category": "Intent Recognition",
+      "question": "I'm worried about air quality in my home. Can you help me understand what to look for in environment...",
+      "winner": "o4-mini",
+      "confidence": 10,
+      "gpt_total_score": 36,
+      "reasoning_total_score": 47,
+      "gpt_avg_score": 7.2,
+      "reasoning_avg_score": 9.4,
+      "dimension_scores": {
+        "Accuracy": {
+          "gpt_4_1_mini": 9,
+          "o4_mini": 9
+        },
+        "Completeness": {
+          "gpt_4_1_mini": 7,
+          "o4_mini": 10
+        },
+        "Reasoning Quality": {
+          "gpt_4_1_mini": 6,
+          "o4_mini": 10
+        },
+        "Task Appropriateness": {
+          "gpt_4_1_mini": 7,
+          "o4_mini": 9
+        },
+        "Practical Value": {
+          "gpt_4_1_mini": 7,
+          "o4_mini": 9
+        }
+      },
+      "evaluation_method": "ai_evaluation"
+    },
+    "6": {
+      "question_id": 6,
+      "category": "Intent Recognition",
+      "question": "My allergies are acting up in this room. Could it be related to indoor air quality?",
+      "winner": "o4-mini",
+      "confidence": 10,
+      "gpt_total_score": 29,
+      "reasoning_total_score": 49,
+      "gpt_avg_score": 5.8,
+      "reasoning_avg_score": 9.8,
+      "dimension_scores": {
+        "Accuracy": {
+          "gpt_4_1_mini": 7,
+          "o4_mini": 9
+        },
+        "Completeness": {
+          "gpt_4_1_mini": 5,
+          "o4_mini": 10
+        },
+        "Reasoning Quality": {
+          "gpt_4_1_mini": 6,
+          "o4_mini": 10
+        },
+        "Task Appropriateness": {
+          "gpt_4_1_mini": 6,
+          "o4_mini": 10
+        },
+        "Practical Value": {
+          "gpt_4_1_mini": 5,
+          "o4_mini": 10
+        }
+      },
+      "evaluation_method": "ai_evaluation"
+    },
+    "7": {
+      "question_id": 7,
+      "category": "Intent Recognition",
+      "question": "Can you help me understand what our environmental data means for my family's health?",
+      "winner": "o4-mini",
+      "confidence": 9,
+      "gpt_total_score": 24,
+      "reasoning_total_score": 47,
+      "gpt_avg_score": 4.8,
+      "reasoning_avg_score": 9.4,
+      "dimension_scores": {
+        "Accuracy": {
+          "gpt_4_1_mini": 5,
+          "o4_mini": 9
+        },
+        "Completeness": {
+          "gpt_4_1_mini": 4,
+          "o4_mini": 9
+        },
+        "Reasoning Quality": {
+          "gpt_4_1_mini": 4,
+          "o4_mini": 10
+        },
+        "Task Appropriateness": {
+          "gpt_4_1_mini": 5,
+          "o4_mini": 10
+        },
+        "Practical Value": {
+          "gpt_4_1_mini": 6,
+          "o4_mini": 9
+        }
+      },
+      "evaluation_method": "ai_evaluation"
+    },
+    "8": {
+      "question_id": 8,
+      "category": "Intent Recognition",
+      "question": "Something doesn't feel right about the air in this space.",
+      "winner": "o4-mini",
+      "confidence": 9,
+      "gpt_total_score": 24,
+      "reasoning_total_score": 49,
+      "gpt_avg_score": 4.8,
+      "reasoning_avg_score": 9.8,
+      "dimension_scores": {
+        "Accuracy": {
+          "gpt_4_1_mini": 5,
+          "o4_mini": 9
+        },
+        "Completeness": {
+          "gpt_4_1_mini": 5,
+          "o4_mini": 10
+        },
+        "Reasoning Quality": {
+          "gpt_4_1_mini": 4,
+          "o4_mini": 10
+        },
+        "Task Appropriateness": {
+          "gpt_4_1_mini": 6,
+          "o4_mini": 10
+        },
+        "Practical Value": {
+          "gpt_4_1_mini": 4,
+          "o4_mini": 10
+        }
+      },
+      "evaluation_method": "ai_evaluation"
+    },
+    "10": {
+      "question_id": 10,
+      "category": "Reasoning Task",
+      "question": "Based on your historical CO2 data, explain what CO2 levels around 820 ppm mean for health and daily ...",
+      "winner": "o4-mini",
+      "confidence": 9,
+      "gpt_total_score": 40,
+      "reasoning_total_score": 47,
+      "gpt_avg_score": 8.0,
+      "reasoning_avg_score": 9.4,
+      "dimension_scores": {
+        "Accuracy": {
+          "gpt_4_1_mini": 9,
+          "o4_mini": 9
+        },
+        "Completeness": {
+          "gpt_4_1_mini": 8,
+          "o4_mini": 9
+        },
+        "Reasoning Quality": {
+          "gpt_4_1_mini": 7,
+          "o4_mini": 10
+        },
+        "Task Appropriateness": {
+          "gpt_4_1_mini": 8,
+          "o4_mini": 10
+        },
+        "Practical Value": {
+          "gpt_4_1_mini": 8,
+          "o4_mini": 9
+        }
+      },
+      "evaluation_method": "ai_evaluation"
+    },
+    "11": {
+      "question_id": 11,
+      "category": "Reasoning Task",
+      "question": "If your historical data shows humidity at 68% and temperature at 25°C, what might explain allergy sy...",
+      "winner": "o4-mini",
+      "confidence": 10,
+      "gpt_total_score": 38,
+      "reasoning_total_score": 48,
+      "gpt_avg_score": 7.6,
+      "reasoning_avg_score": 9.6,
+      "dimension_scores": {
+        "Accuracy": {
+          "gpt_4_1_mini": 9,
+          "o4_mini": 9
+        },
+        "Completeness": {
+          "gpt_4_1_mini": 8,
+          "o4_mini": 10
+        },
+        "Reasoning Quality": {
+          "gpt_4_1_mini": 7,
+          "o4_mini": 10
+        },
+        "Task Appropriateness": {
+          "gpt_4_1_mini": 6,
+          "o4_mini": 10
+        },
+        "Practical Value": {
+          "gpt_4_1_mini": 8,
+          "o4_mini": 9
+        }
+      },
+      "evaluation_method": "ai_evaluation"
+    },
+    "12": {
+      "question_id": 12,
+      "category": "Reasoning Task",
+      "question": "From your TVOC historical data, if readings show 300 ppb, how much above the safe limit of 220 ppb w...",
+      "winner": "o4-mini",
+      "confidence": 8,
+      "gpt_total_score": 40,
+      "reasoning_total_score": 42,
+      "gpt_avg_score": 8.0,
+      "reasoning_avg_score": 8.4,
+      "dimension_scores": {
+        "Accuracy": {
+          "gpt_4_1_mini": 9,
+          "o4_mini": 9
+        },
+        "Completeness": {
+          "gpt_4_1_mini": 8,
+          "o4_mini": 7
+        },
+        "Reasoning Quality": {
+          "gpt_4_1_mini": 7,
+          "o4_mini": 9
+        },
+        "Task Appropriateness": {
+          "gpt_4_1_mini": 8,
+          "o4_mini": 9
+        },
+        "Practical Value": {
+          "gpt_4_1_mini": 8,
+          "o4_mini": 8
+        }
+      },
+      "evaluation_method": "ai_evaluation"
+    },
+    "13": {
+      "question_id": 13,
+      "category": "Reasoning Task",
+      "question": "Based on your historical environmental data, evaluate if conditions with CO2: 680 ppm, humidity: 55%...",
+      "winner": "o4-mini",
+      "confidence": 9,
+      "gpt_total_score": 37,
+      "reasoning_total_score": 46,
+      "gpt_avg_score": 7.4,
+      "reasoning_avg_score": 9.2,
+      "dimension_scores": {
+        "Accuracy": {
+          "gpt_4_1_mini": 8,
+          "o4_mini": 9
+        },
+        "Completeness": {
+          "gpt_4_1_mini": 7,
+          "o4_mini": 9
+        },
+        "Reasoning Quality": {
+          "gpt_4_1_mini": 7,
+          "o4_mini": 10
+        },
+        "Task Appropriateness": {
+          "gpt_4_1_mini": 8,
+          "o4_mini": 9
+        },
+        "Practical Value": {
+          "gpt_4_1_mini": 7,
+          "o4_mini": 9
+        }
+      },
+      "evaluation_method": "ai_evaluation"
+    },
+    "14": {
+      "question_id": 14,
+      "category": "Reasoning Task",
+      "question": "Using your historical data patterns, if someone with asthma enters a room with CO2 at 750 ppm, humid...",
+      "winner": "o4-mini",
+      "confidence": 9,
+      "gpt_total_score": 43,
+      "reasoning_total_score": 48,
+      "gpt_avg_score": 8.6,
+      "reasoning_avg_score": 9.6,
+      "dimension_scores": {
+        "Accuracy": {
+          "gpt_4_1_mini": 10,
+          "o4_mini": 10
+        },
+        "Completeness": {
+          "gpt_4_1_mini": 9,
+          "o4_mini": 9
+        },
+        "Reasoning Quality": {
+          "gpt_4_1_mini": 8,
+          "o4_mini": 10
+        },
+        "Task Appropriateness": {
+          "gpt_4_1_mini": 7,
+          "o4_mini": 10
+        },
+        "Practical Value": {
+          "gpt_4_1_mini": 9,
+          "o4_mini": 9
+        }
+      },
+      "evaluation_method": "ai_evaluation"
+    },
+    "15": {
+      "question_id": 15,
+      "category": "Multi-Task Test",
+      "question": "Analyze sample readings from your historical datasets - CO2: 850 ppm, Temperature: 24°C, Humidity: 6...",
+      "winner": "o4-mini",
+      "confidence": 10,
+      "gpt_total_score": 40,
+      "reasoning_total_score": 47,
+      "gpt_avg_score": 8.0,
+      "reasoning_avg_score": 9.4,
+      "dimension_scores": {
+        "Accuracy": {
+          "gpt_4_1_mini": 9,
+          "o4_mini": 9
+        },
+        "Completeness": {
+          "gpt_4_1_mini": 8,
+          "o4_mini": 9
+        },
+        "Reasoning Quality": {
+          "gpt_4_1_mini": 7,
+          "o4_mini": 10
+        },
+        "Task Appropriateness": {
+          "gpt_4_1_mini": 8,
+          "o4_mini": 10
+        },
+        "Practical Value": {
+          "gpt_4_1_mini": 8,
+          "o4_mini": 9
+        }
+      },
+      "evaluation_method": "ai_evaluation"
+    },
+    "16": {
+      "question_id": 16,
+      "category": "Multi-Task Test",
+      "question": "Using your historical data context, if environmental readings show CO2 at 950 ppm, temperature at 26...",
+      "winner": "o4-mini",
+      "confidence": 9,
+      "gpt_total_score": 39,
+      "reasoning_total_score": 46,
+      "gpt_avg_score": 7.8,
+      "reasoning_avg_score": 9.2,
+      "dimension_scores": {
+        "Accuracy": {
+          "gpt_4_1_mini": 9,
+          "o4_mini": 9
+        },
+        "Completeness": {
+          "gpt_4_1_mini": 8,
+          "o4_mini": 9
+        },
+        "Reasoning Quality": {
+          "gpt_4_1_mini": 7,
+          "o4_mini": 9
+        },
+        "Task Appropriateness": {
+          "gpt_4_1_mini": 7,
+          "o4_mini": 10
+        },
+        "Practical Value": {
+          "gpt_4_1_mini": 8,
+          "o4_mini": 9
+        }
+      },
+      "evaluation_method": "ai_evaluation"
+    },
+    "9": {
+      "question_id": 9,
+      "category": "Reasoning Task",
+      "question": "Using your humidity historical data, calculate the average from any 7-day period and compare to optimal ranges (30-50%).",
+      "winner": "o4-mini",
+      "confidence": 10,
+      "gpt_total_score": 7,
+      "reasoning_total_score": 50,
+      "gpt_avg_score": 1.4,
+      "reasoning_avg_score": 10,
+      "dimension_scores": {
+        "Accuracy": {
+          "gpt_4_1_mini": 1,
+          "o4_mini": 10
+        },
+        "Completeness": {
+          "gpt_4_1_mini": 1,
+          "o4_mini": 10
+        },
+        "Task Appropriateness": {
+          "gpt_4_1_mini": 3,
+          "o4_mini": 10
+        },
+        "Transparency": {
+          "gpt_4_1_mini": 1,
+          "o4_mini": 10
+        },
+        "Practical Value": {
+          "gpt_4_1_mini": 1,
+          "o4_mini": 10
+        }
+      },
+      "evaluation_method": "manual_override"
+    },
+    "17": {
+      "question_id": 17,
+      "category": "Memory Test",
+      "question": "From your historical CO2 data, if levels were 720 ppm on a Wednesday, what does that indicate?",
+      "winner": "o4-mini",
+      "confidence": 10,
+      "gpt_total_score": 43,
+      "reasoning_total_score": 50,
+      "gpt_avg_score": 8.6,
+      "reasoning_avg_score": 10,
+      "dimension_scores": {
+        "Accuracy": {
+          "gpt_4_1_mini": 8,
+          "o4_mini": 10
+        },
+        "Completeness": {
+          "gpt_4_1_mini": 10,
+          "o4_mini": 10
+        },
+        "Task Appropriateness": {
+          "gpt_4_1_mini": 9,
+          "o4_mini": 10
+        },
+        "Transparency": {
+          "gpt_4_1_mini": 8,
+          "o4_mini": 10
+        },
+        "Practical Value": {
+          "gpt_4_1_mini": 8,
+          "o4_mini": 10
+        }
+      },
+      "evaluation_method": "manual_override"
+    },
+    "18": {
+      "question_id": 18,
+      "category": "Memory Test",
+      "question": "Based on that CO2 level you just analyzed, are those conditions safe for children?",
+      "winner": "o4-mini",
+      "confidence": 10,
+      "gpt_total_score": 48,
+      "reasoning_total_score": 50,
+      "gpt_avg_score": 9.6,
+      "reasoning_avg_score": 10,
+      "dimension_scores": {
+        "Accuracy": {
+          "gpt_4_1_mini": 10,
+          "o4_mini": 10
+        },
+        "Completeness": {
+          "gpt_4_1_mini": 9,
+          "o4_mini": 10
+        },
+        "Task Appropriateness": {
+          "gpt_4_1_mini": 10,
+          "o4_mini": 10
+        },
+        "Transparency": {
+          "gpt_4_1_mini": 10,
+          "o4_mini": 10
+        },
+        "Practical Value": {
+          "gpt_4_1_mini": 9,
+          "o4_mini": 10
+        }
+      },
+      "evaluation_method": "manual_override"
+    },
+    "19": {
+      "question_id": 19,
+      "category": "File Search Test",
+      "question": "Search your IoT sensor files and tell me the exact CO2 reading from sensor ID 14 on December 16, 2024 at 18:40. Include the file name where you found this data.",
+      "winner": "o4-mini",
+      "confidence": 10,
+      "gpt_total_score": 47,
+      "reasoning_total_score": 50,
+      "gpt_avg_score": 9.4,
+      "reasoning_avg_score": 10,
+      "dimension_scores": {
+        "Accuracy": {
+          "gpt_4_1_mini": 10,
+          "o4_mini": 10
+        },
+        "Completeness": {
+          "gpt_4_1_mini": 10,
+          "o4_mini": 10
+        },
+        "Task Appropriateness": {
+          "gpt_4_1_mini": 8,
+          "o4_mini": 10
+        },
+        "Transparency": {
+          "gpt_4_1_mini": 9,
+          "o4_mini": 10
+        },
+        "Practical Value": {
+          "gpt_4_1_mini": 10,
+          "o4_mini": 10
+        }
+      },
+      "evaluation_method": "manual_override"
+    },
+    "20": {
+      "question_id": 20,
+      "category": "File Search Test",
+      "question": "From your historical sensor data files, find the highest TVOC reading recorded and tell me: the exact value, sensor ID, date/time, and which specific file contained this information.",
+      "winner": "gpt-4.1-mini",
+      "confidence": 10,
+      "gpt_total_score": 50,
+      "reasoning_total_score": 10,
+      "gpt_avg_score": 10,
+      "reasoning_avg_score": 2,
+      "dimension_scores": {
+        "Accuracy": {
+          "gpt_4_1_mini": 10,
+          "o4_mini": 0
+        },
+        "Completeness": {
+          "gpt_4_1_mini": 10,
+          "o4_mini": 0
+        },
+        "Task Appropriateness": {
+          "gpt_4_1_mini": 10,
+          "o4_mini": 5
+        },
+        "Transparency": {
+          "gpt_4_1_mini": 10,
+          "o4_mini": 5
+        },
+        "Practical Value": {
+          "gpt_4_1_mini": 10,
+          "o4_mini": 0
+        }
+      },
+      "evaluation_method": "manual_override"
+    }
+  }
+}

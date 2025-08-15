@@ -1,0 +1,105 @@
+{
+  "timestamp": "2025-08-05 17:12:36",
+  "evaluation_type": "Fair Evaluation - All Questions (1-20)",
+  "model_a": "gpt-4.1-mini",
+  "model_b": "o4-mini",
+  "total_comparisons": 20,
+  "gpt41_wins": 1,
+  "o4_wins": 19,
+  "ties": 0,
+  "average_confidence": 9.2,
+  "category_details": {
+    "Daily Conversation": {
+      "questions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "questions_count": 4,
+      "gpt41_wins": 1,
+      "gpto4_wins": 3,
+      "ties": 0,
+      "average_confidence": 9.0,
+      "gpt41_average_score": 42.8,
+      "gpto4_average_score": 44.8,
+      "score_difference": 2.0
+    },
+    "Intent Recognition": {
+      "questions": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "questions_count": 4,
+      "gpt41_wins": 0,
+      "gpto4_wins": 4,
+      "ties": 0,
+      "average_confidence": 9.5,
+      "gpt41_average_score": 28.2,
+      "gpto4_average_score": 48.0,
+      "score_difference": 19.8
+    },
+    "Reasoning Task": {
+      "questions": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "questions_count": 6,
+      "gpt41_wins": 0,
+      "gpto4_wins": 6,
+      "ties": 0,
+      "average_confidence": 9.0,
+      "gpt41_average_score": 39.0,
+      "gpto4_average_score": 45.7,
+      "score_difference": 6.7
+    },
+    "Multi-Task Test": {
+      "questions": [
+        15,
+        16
+      ],
+      "questions_count": 2,
+      "gpt41_wins": 0,
+      "gpto4_wins": 2,
+      "ties": 0,
+      "average_confidence": 9.5,
+      "gpt41_average_score": 39.5,
+      "gpto4_average_score": 46.5,
+      "score_difference": 7.0
+    },
+    "Memory Test": {
+      "questions": [
+        17,
+        18
+      ],
+      "questions_count": 2,
+      "gpt41_wins": 0,
+      "gpto4_wins": 2,
+      "ties": 0,
+      "average_confidence": 9.0,
+      "gpt41_average_score": 37.0,
+      "gpto4_average_score": 48.0,
+      "score_difference": 11.0
+    },
+    "File Search Test": {
+      "questions": [
+        19,
+        20
+      ],
+      "questions_count": 2,
+      "gpt41_wins": 0,
+      "gpto4_wins": 2,
+      "ties": 0,
+      "average_confidence": 9.5,
+      "gpt41_average_score": 29.5,
+      "gpto4_average_score": 48.0,
+      "score_difference": 18.5
+    }
+  }
+}

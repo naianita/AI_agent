@@ -1,0 +1,73 @@
+{
+  "timestamp": "2025-08-05 12:08:46",
+  "evaluation_type": "Fair Evaluation",
+  "model_a": "gpt-4.1-mini",
+  "model_b": "gpt-o4-mini-react",
+  "total_comparisons": 20,
+  "gpt41_wins": 7,
+  "gpto4_wins": 12,
+  "ties": 1,
+  "average_confidence": 9.5,
+  "category_details": {
+    "Daily Conversation": {
+      "questions_count": 4,
+      "gpt41_wins": 2,
+      "gpto4_wins": 1,
+      "ties": 1,
+      "average_confidence": 9.0,
+      "gpt41_average_score": 43.8,
+      "gpto4_average_score": 44.8,
+      "score_difference": 1.0
+    },
+    "Intent Recognition": {
+      "questions_count": 4,
+      "gpt41_wins": 1,
+      "gpto4_wins": 3,
+      "ties": 0,
+      "average_confidence": 9.75,
+      "gpt41_average_score": 19.8,
+      "gpto4_average_score": 36.0,
+      "score_difference": 16.2
+    },
+    "Reasoning Task": {
+      "questions_count": 6,
+      "gpt41_wins": 1,
+      "gpto4_wins": 5,
+      "ties": 0,
+      "average_confidence": 9.83,
+      "gpt41_average_score": 22.8,
+      "gpto4_average_score": 40.0,
+      "score_difference": 17.2
+    },
+    "Multi-Task Test": {
+      "questions_count": 2,
+      "gpt41_wins": 0,
+      "gpto4_wins": 2,
+      "ties": 0,
+      "average_confidence": 9.5,
+      "gpt41_average_score": 5.0,
+      "gpto4_average_score": 47.5,
+      "score_difference": 42.5
+    },
+    "Memory Test": {
+      "questions_count": 2,
+      "gpt41_wins": 1,
+      "gpto4_wins": 1,
+      "ties": 0,
+      "average_confidence": 9.0,
+      "gpt41_average_score": 41.5,
+      "gpto4_average_score": 24.0,
+      "score_difference": -17.5
+    },
+    "File Search Test": {
+      "questions_count": 2,
+      "gpt41_wins": 2,
+      "gpto4_wins": 0,
+      "ties": 0,
+      "average_confidence": 9.5,
+      "gpt41_average_score": 43.5,
+      "gpto4_average_score": 17.5,
+      "score_difference": -26.0
+    }
+  }
+}

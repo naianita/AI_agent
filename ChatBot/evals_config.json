@@ -1,0 +1,80 @@
+{
+  "evaluation_settings": {
+    "grading_model": "gpt-4.1",
+    "max_response_length": 500,
+    "include_categories": [
+      "Daily Conversation",
+      "Mathematical",
+      "Multi-Task", 
+      "Health",
+      "Memory",
+      "Intent Recognition",
+      "File Search Test"
+    ],
+    "evaluation_criteria": {
+      "task_completion": {
+        "name": "Task Completion",
+        "description": "Which response better addresses all parts of the question?",
+        "weight": 1.0,
+        "enabled": true
+      },
+      "reasoning_quality": {
+        "name": "Reasoning Quality", 
+        "description": "Which response shows better analytical thinking and logical reasoning?",
+        "weight": 1.0,
+        "enabled": true
+      },
+      "accuracy_relevance": {
+        "name": "Accuracy & Relevance",
+        "description": "Which response is more accurate and relevant to environmental monitoring?",
+        "weight": 1.0,
+        "enabled": true
+      },
+      "usefulness": {
+        "name": "Usefulness",
+        "description": "Which response would be more helpful to a user seeking air quality guidance?",
+        "weight": 1.0,
+        "enabled": true
+      },
+      "transparency": {
+        "name": "Transparency",
+        "description": "Which response makes the reasoning process more clear and understandable?",
+        "weight": 1.0,
+        "enabled": true
+      },
+      "overall_preference": {
+        "name": "Overall Preference",
+        "description": "Overall, which response is better considering all factors?",
+        "weight": 1.0,
+        "enabled": true
+      }
+    }
+  },
+  "model_comparison": {
+    "model_a": {
+      "name": "gpt-4.1-mini",
+      "full_name": "gpt-4.1-mini-2025-04-14",
+      "type": "fast_gpt",
+      "description": "Fast, cost-efficient model with structured prompting"
+    },
+    "model_b": {
+      "name": "gpt-o4-mini-react", 
+      "full_name": "o4-mini-2025-04-16",
+      "type": "reasoning",
+      "description": "Reasoning model with manual ReAct format for visible thinking"
+    }
+  },
+  "output_settings": {
+    "generate_detailed_report": true,
+    "include_individual_scores": true,
+    "export_to_csv": true,
+    "save_raw_responses": false,
+    "create_visualizations": false
+  },
+  "api_settings": {
+    "timeout_seconds": 300,
+    "retry_attempts": 3,
+    "batch_size": 10,
+    "rate_limit_delay": 1.0
+  }
+}

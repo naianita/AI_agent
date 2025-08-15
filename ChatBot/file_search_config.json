@@ -1,0 +1,24 @@
+{
+  "vector_store_id": "vs_68918f2ecc308191ab20f6b79a469158",
+  "file_ids": [
+    "file-MPNdnCCEfhnHgKBviEcEgB",
+    "file-EJ6eeiqHbq7Ve5ttF3VQGn",
+    "file-CDc78YSRYvgAXci3TrZ2XZ",
+    "file-9pdUwy2Nas24o8ckFC2tLi"
+  ],
+  "attached_files": [
+    "file-MPNdnCCEfhnHgKBviEcEgB",
+    "file-EJ6eeiqHbq7Ve5ttF3VQGn",
+    "file-CDc78YSRYvgAXci3TrZ2XZ",
+    "file-9pdUwy2Nas24o8ckFC2tLi"
+  ],
+  "format": "json",
+  "created_at": "2025-08-04T21:57:21.267088",
+  "file_names": [
+    "iot_co2_data.json",
+    "iot_humidity_data.json",
+    "iot_temperature_data.json",
+    "iot_tvoc_data.json"
+  ],
+  "note": "Using JSON files for embeddings support"
+}

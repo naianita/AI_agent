@@ -3,6 +3,7 @@ from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from .models import User_Info
 from .agent.react_agent import ReActAgent
+from .agent.simple_agent import SimpleAgent
 from .agent.model_hub import ModelHub
 from .agent.tool_manager import ToolManager
 import json
@@ -58,12 +59,13 @@ def chat_api(request):
             logger.info(f"🌐 WEB INTERFACE REQUEST\nUser ID: {user_id}\nMessage: {message[:100]}{'...' if len(message) > 100 else ''}")
             
             if user_id not in agent_cache:
-                logger.info(f"🚀 CREATING NEW AGENT INSTANCE for user: {user_id}")
+                logger.info(f"🚀 CREATING NEW SIMPLE AGENT INSTANCE for user: {user_id}")
                 model_hub = ModelHub()
                 tool_manager = ToolManager()
-                agent_cache[user_id] = ReActAgent(model_hub, tool_manager)
+                # Using SimpleAgent instead of ReActAgent to leverage native ReAct capabilities
+                agent_cache[user_id] = SimpleAgent(model_hub, tool_manager)
             else:
-                logger.info(f"♻️ REUSING EXISTING AGENT INSTANCE for user: {user_id}")
+                logger.info(f"♻️ REUSING EXISTING SIMPLE AGENT INSTANCE for user: {user_id}")
             
             agent = agent_cache[user_id]
             
