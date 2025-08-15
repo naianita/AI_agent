@@ -52,7 +52,7 @@ FINE_TUNING_EPOCHS = 3
 FINE_TUNING_BATCH_SIZE = 4
 
 # Django
-SECRET_KEY='y_e2*mxk@ygc@p!z!z-5)#tb209nr2#)^w0evj*--ov(lq77pa'
+SECRET_KEY=''
 
 # Agent Settings
 MAX_ITERATIONS = 10
